@@ -1,7 +1,7 @@
 # Quantum_suduko_quanta              Quantum Sudoku Solver
 
 
-Grover’s algorithm
+## Grover’s algorithm
 
 In an unstructured search problem, the best classical strategy is to check all the elements which eventually would result in O(N) evaluations, on average we could say it would require N/2 comparisons.
 However, on a quantum machine, this type of problem can be solved with a small probability error in O(√N).
@@ -16,7 +16,7 @@ The oracle inverts the amplitude of |x〉  that are solutions.
 The diffuser amplifies those solution’s amplitudes by inverting them over the average of all the amplitudes.
 Finally the measurement yields the solution, probability of solution is more than others.
 
-Sudoku Solver
+## Sudoku Solver
 Sudoku is a combinatorial number-placement puzzle. Algorithms such as backtracking can solve most of 9 x 9 puzzles. However for large value of n, a combinatorial explosion occurs which limits the properties of Sudoku that can be constructed, analysed and solved.
 There are 2 main aspects of problem difficulty:
 First is complexity of individual steps involved in solving the problem 
